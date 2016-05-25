@@ -7,6 +7,6 @@ namespace LogAn
 {
 	public class LogAnalyzer
 	{
-		public bool IsValidLogFileName(string fileName) => fileName.EndsWith(".SLF") ? true : false;
+		public bool IsValidLogFileName(string fileName) => fileName.ToUpper().EndsWith(".SLF") ? true : false;
 	}
 }

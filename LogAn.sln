@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAn", "LogAn\LogAn.csproj", "{2C832857-0052-4C97-BBFD-FE5605B5F954}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAn.UnitTests", "ClassLibrary1\LogAn.UnitTests.csproj", "{FE62FC3B-B63C-432E-9717-7D371B9AB015}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2C832857-0052-4C97-BBFD-FE5605B5F954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C832857-0052-4C97-BBFD-FE5605B5F954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C832857-0052-4C97-BBFD-FE5605B5F954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE62FC3B-B63C-432E-9717-7D371B9AB015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE62FC3B-B63C-432E-9717-7D371B9AB015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE62FC3B-B63C-432E-9717-7D371B9AB015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE62FC3B-B63C-432E-9717-7D371B9AB015}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
